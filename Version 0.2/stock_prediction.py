@@ -147,7 +147,7 @@ def load_scale_and_split_data(
 
 
 
-    # 4 - Multi-Feature Isolated Scaling & Scaler Retention
+    # 4 - Multi-Feature Isolated Scaling and Scaler Retention
 
     # 1/ Instead of scaling the whole table at once, the code loops through the features
     #    (Open, High, Low, Close, Volume) one column at a time.
@@ -168,7 +168,6 @@ def load_scale_and_split_data(
     # 4/ Test:
     #    Same steps as Train, but by calling only .transform(), the code forces the testing data to be scaled
     #    using the exact same minimum and maximum boundaries learned from the training set
-    #
 
     scalers = {}
     scaled_train = pd.DataFrame(index=train_df.index)
