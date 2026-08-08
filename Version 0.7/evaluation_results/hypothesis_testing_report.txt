@@ -1,0 +1,24 @@
+=========================================================
+      STATISTICAL HYPOTHESIS TESTING REPORT
+=========================================================
+
+Null Hypothesis (H0): Sentiment features cause NO performance difference.
+Alt Hypothesis  (H1): Sentiment features cause a significant performance difference.
+
+--- ACCURACY TEST RESULTS ---
+Baseline Mean Accuracy  : 50.72%
+Sentiment Mean Accuracy : 50.59%
+Paired t-statistic      : -0.0675
+p-value (t-test)        : 0.9488
+Wilcoxon W-statistic    : 10.0000
+p-value (Wilcoxon)      : 1.0000
+Conclusion              : FAIL TO REJECT H0 (Not Significant)
+
+--- ROC AUC TEST RESULTS ---
+Baseline Mean ROC AUC   : 53.29%
+Sentiment Mean ROC AUC  : 51.45%
+Paired t-statistic      : -0.8932
+p-value (t-test)        : 0.4127
+Wilcoxon W-statistic    : 6.0000
+p-value (Wilcoxon)      : 0.4375
+Conclusion              : FAIL TO REJECT H0 (Not Significant)

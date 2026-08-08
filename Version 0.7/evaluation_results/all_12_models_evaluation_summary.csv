@@ -1,0 +1,13 @@
+Experiment,Config,Model,TN,FP,FN,TP,Accuracy (%),Precision (%),Recall (%),F1 Score (%),ROC AUC (%)
+Baseline (Technical Only),config_1_standard,LSTM,88,173,67,206,55.06,54.35,75.46,63.19,55.45
+Baseline (Technical Only),config_1_standard,GRU,10,251,27,246,47.94,49.5,90.11,63.9,54.92
+Baseline (Technical Only),config_1_standard,RNN,14,247,15,258,50.94,51.09,94.51,66.32,54.32
+Baseline (Technical Only),config_2_deep,LSTM,70,191,71,202,50.94,51.4,73.99,60.66,55.76
+Baseline (Technical Only),config_2_deep,GRU,37,224,44,229,49.81,50.55,83.88,63.09,52.45
+Baseline (Technical Only),config_2_deep,RNN,59,202,67,206,49.63,50.49,75.46,60.5,46.86
+Sentiment Enriched,config_1_standard,LSTM,46,215,61,212,48.31,49.65,77.66,60.57,50.76
+Sentiment Enriched,config_1_standard,GRU,0,261,0,273,51.12,51.12,100.0,67.66,57.03
+Sentiment Enriched,config_1_standard,RNN,0,261,0,273,51.12,51.12,100.0,67.66,49.88
+Sentiment Enriched,config_2_deep,LSTM,25,236,50,223,46.44,48.58,81.68,60.93,48.12
+Sentiment Enriched,config_2_deep,GRU,0,261,0,273,51.12,51.12,100.0,67.66,49.94
+Sentiment Enriched,config_2_deep,RNN,64,197,41,232,55.43,54.08,84.98,66.1,52.97

@@ -1,0 +1,7 @@
+Config,Model,Baseline_Acc (%),Sentiment_Acc (%),Acc_Diff (%),Baseline_AUC (%),Sentiment_AUC (%),AUC_Diff (%),Baseline_TN,Sentiment_TN,Baseline_Specificity (%),Sentiment_Specificity (%),Mode_Collapsed
+config_1_standard,GRU,47.94,51.12,3.18,54.92,57.03,2.11,10,0,3.83,0.0,True
+config_1_standard,LSTM,55.06,48.31,-6.75,55.45,50.76,-4.69,88,46,33.72,17.62,False
+config_1_standard,RNN,50.94,51.12,0.18,54.32,49.88,-4.44,14,0,5.36,0.0,True
+config_2_deep,GRU,49.81,51.12,1.31,52.45,49.94,-2.51,37,0,14.18,0.0,True
+config_2_deep,LSTM,50.94,46.44,-4.5,55.76,48.12,-7.64,70,25,26.82,9.58,False
+config_2_deep,RNN,49.63,55.43,5.8,46.86,52.97,6.11,59,64,22.61,24.52,False
